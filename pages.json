@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		}
+	    
+        ,{
+            "path" : "pages/market/market",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/trade/trade",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/assets/assets",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myself/myself",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tran_money/tran_money",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/link/link",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/code/code",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Mine_pool/Mine_pool",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/route/route",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/entertainment/entertainment",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/active/active",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/exchange/exchange",
+            "style" : {}
+        },
+		{
+			"path" : "pages/notice/notice",
+			"style" : {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "三度空间",
+		"navigationBarBackgroundColor": "#131f2f",
+		"backgroundColor": "#131f2f"
+	},
+	"tabBar": {
+		"color":"#babbbb",
+		"selectedColor": "#17d0aa",
+		"fontFamily": "华文细黑",
+		"backgroundColor":"#1f2b3b",
+		"fontSize": "12px",
+		"list": [
+			{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath":"static/images/home.png",
+			"selectedIconPath":"static/images/home-active1.png"
+			},
+			{
+			"text": "行情",
+			"pagePath": "pages/market/market",
+			"iconPath":"static/images/market.png",
+			"selectedIconPath":"static/images/market-active1.png"
+			},
+			{
+			"text": "交易",
+			"pagePath": "pages/trade/trade",
+			"iconPath":"static/images/trade.png",
+			"selectedIconPath":"static/images/trade-active1.png"
+			},
+			{
+			"text": "资产",
+			"pagePath": "pages/assets/assets",
+			"iconPath":"static/images/assets.png",
+			"selectedIconPath":"static/images/assets-active1.png"
+			},
+			{
+			"text": "我的",
+			"pagePath": "pages/myself/myself",
+			"iconPath":"static/images/myself.png",
+			"selectedIconPath":"static/images/myself-active1.png"
+			}
+		]
+		
+	}
+}
