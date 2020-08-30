@@ -1,5 +1,7 @@
 <template>
 	<view class="content">
+		<view class="status_bar">
+		</view>
 		<view class="top-bar">
 		<view class="notice" > 
 			<image src="../../static/notice.png" mode="aspectFit"  style="width: 50rpx; height: 50rpx;" @click="topNavClick"></image>	
@@ -154,10 +156,14 @@
 </script>
 
 <style lang="scss">
+	.status_bar {
+		height: var(--status-bar-height);
+		width: 100%;
+	}
 	.content {
 		
-		width: 750rpx;
-		height: 1334rpx;
+		width: 100%;
+		height: 100%;
 
 		background-image: url('~@//static/bg.png');
 		background-repeat: no-repeat;
