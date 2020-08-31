@@ -12,7 +12,8 @@
 		</view>
 		</view>
 		<view class="swiper">
-			<mosowe-swiper :lists="banner" :touchable="false" indicator="dots" imageKey="image" previewImage pyramid
+			<mosowe-swiper :lists="banner" :touchable="false" indicator="dots" imageKey="image" 
+			previewImage pyramid
 			 pyramidMargin="" @change="bannerChange" />
 		</view>
 		<view class="nav">
@@ -35,13 +36,18 @@
 			</view>
 		</view>
 		<view class="profit">
-			<view class="number">156.325665</view>
+		
+			<button class="btn" type="primary" size="mini"   hover-class="button-hover" >去登陆</button>
+			
+			<!-- <view class="number" >156.325665</view> -->
 			<text class="wen_zi">昨日收益</text>
 		</view>
 	</view>
+	
 </template>
 
 <script>
+	import { pathToBase64, base64ToPath } from 'image-tools'
 	import mosoweSwiper from '../../components/mosowe-swiper/mosowe-swiper.vue'
 	import pScan from '../../components/p-scan/scan.vue'
 	export default {
@@ -147,9 +153,7 @@
 					url:'/pages/notice/notice'
 				})
 			},
-			// getScanCode(val){
-			//      console.log(val)
-			// }
+			
 			
 		}
 	}
@@ -160,73 +164,83 @@
 		height: var(--status-bar-height);
 		width: 100%;
 	}
-	.content {
-		
-		width: 100%;
-		height: 100%;
-
-		background-image: url('~@//static/bg.png');
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
 	.top-bar{
 		display: flex;
 		justify-content:space-between;
 		margin: 0px 10px;
 		padding-top: 10px;
 	}
-	.notice{
-		// margin: 20px;
-	}
-	.sao_ma{
-		// padding-right: 80px;
-	}
+	
 	.swiper {
-
+	
 		padding-top: 30rpx;
 	}
-
+	
 	.nav {
 		font-size: 24rpx;
 		color: #c6c6c6;
 	}
-
+	
 	.nav1 {
 		display: flex;
 		margin: 15px auto;
-
+	
 	}
-
+	
 	.nav2 {
 		display: flex;
 		/* padding-top: 30rpx; */
 	}
-
+	
 	.nav_item {
 		width: 20%;
 		text-align: center;
-
+	
 	}
-
+	
 	/* .nav_item view{
 		margin: 10px auto;
 	} */
 	 image {
-
+	
 		width: 60rpx;
 		height: 60rpx;
 		
 	}
 	.profit{
+		display: flex;;
+		flex-direction: column;
 		text-align: center;
-		padding-top: 40px;
+		padding-top: 60rpx;
 	}
 	.wen_zi{
 		font-size: 24rpx;
+		padding-top: 60rpx;
 		color: #b4faed;
+		
 	}
 	.number{
 		font-size: 24px;
 		color: #FFFFFF;
 	}
+	.btn{
+		margin-top: 30rpx;
+		
+
+	}
+	
+	.content {
+		display: block;
+		// overflow: hidden;
+		width: 100%;
+		
+		min-height: 100vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 0;
+		background-image: url('~@//static/bg2.png');
+		// background-image: url(data:image/png;base64,);
+		
+	}
+	
 </style>
