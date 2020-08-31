@@ -47,7 +47,7 @@
 </template>
 
 <script>
-	import { pathToBase64, base64ToPath } from 'image-tools'
+	
 	import mosoweSwiper from '../../components/mosowe-swiper/mosowe-swiper.vue'
 	import pScan from '../../components/p-scan/scan.vue'
 	export default {
