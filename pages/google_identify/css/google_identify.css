@@ -1,0 +1,71 @@
+<style>
+  .content {
+	padding: 100rpx 80rpx;
+	/*color: #021342;*/
+    font-size: 35rpx;
+	
+  }
+  .title {
+      width: 100%;
+      height: 40px;
+  	margin-top:-362rpx;
+  	margin-bottom: 100rpx;
+	
+     /* background-color: #021442;
+  	opacity: 1;*/
+  	
+  }
+  .font {
+      color: #ffffff;
+      line-height: 50px;
+      font-size: 36rpx;
+      text-indent: -2em;
+      text-align: center;
+	  margin-top: -20rpx;
+  
+  }
+  .main{
+  	
+  	border: none;
+  	padding-top: 180rpx;
+  	padding-bottom: 300rpx;
+  }
+  .oldpasswordo{
+  	  color: #ffffff;
+  	  font-size: 30rpx;
+	  font-family:  STXihei;
+	  margin-top: -40rpx;
+  }
+  .identify{
+  	  color: #ffffff;
+  	  font-size: 30rpx;
+	  font-family:  STXihei;
+	
+  }
+  .wbutton{
+  	  margin-top: -310px;
+	  font-family: sans-serif;;
+  }
+  .tips{
+	color: #3aca9e;
+	margin-top: -150rpx;
+	width: 568rpx;
+	margin-left: 90rpx;
+	font-size: 26rpx;
+	font-family: sans-serif;;
+  }
+  .arrow-box{
+      width: 20px;  
+      height: 20px;
+      position: relative;  
+      border-radius: 10% 10%;  
+     /* background: #ffffff;  */
+      text-align: center;
+      line-height: 26px;
+      top: 6px;
+      font-size: 14px;
+      left: 10px;
+  	  opacity: 1;
+  	  color: #ffffff;
+  	  margin-top: 0rpx;
+  }

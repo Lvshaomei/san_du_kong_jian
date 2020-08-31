@@ -1,0 +1,103 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	background: #1B2B42 url(../../static/images/bg.png) no-repeat;
+	/*background-size: cover;*/
+	background-color: #162538;
+	height: 1334rpx;
+	background-position: -20px -10rpx;
+}
+
+/* 头部 logo */
+.header {
+	width:151rpx;
+	height:151rpx;
+	/*border-radius:50%;*/
+	margin-top: -40rpx;
+	margin-bottom: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header image{
+	width:151rpx;
+	height:191rpx;
+	/*border-radius:50%;*/
+	margin-top: -10rpx;
+	
+}
+/* 主体 */
+.main {
+	display: flex;
+	flex-direction: column;
+	padding-left: 90rpx;
+	padding-right: 90rpx;
+	border: none;
+}
+.tips {
+	color: #999999;
+	font-size: 28rpx;
+	margin-top: 64rpx;
+	margin-left: 48rpx;
+	font-family:  STXihei;
+}
+/* 登录按钮 */
+.wbutton{
+	margin-top: 64rpx;
+	font-family:  STXihei;
+}
+
+.login_icon{
+	border: none;
+	font-size: 64rpx;
+	margin: 0 64rpx 0 64rpx;
+	color: rgba(0,0,0,0.7)
+}
+/* 底部 */
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 28rpx;
+	margin-top: 64rpx;
+	color: rgba(0, 170, 255, 0.7);
+	text-align: center;
+	height: 40rpx;
+	line-height: 40rpx;
+	font-family:  STXihei;
+}
+.footer text{
+	color: #00aaff;
+	font-size: 24rpx;
+	margin-left: 15rpx;
+	margin-right: 15rpx;
+	font-family:  STXihei;
+}
+.navigator-hover{
+	color: #1b2b42;
+}
+.navigator{
+	color:#3aca9e;
+	margin-right: 160rpx;
+	margin-top: -10rpx;
+}
+.navigator1{
+	color:#3aca9e;
+	margin-left: 160rpx;
+	margin-top: -10rpx;
+}
+.navigator4{
+	color:#3aca9e;
+	margin:center;
+	margin-top: -10rpx;
+	}
+.title {
+	    width: 100%;
+	    height: 40px;
+		margin-top:-100rpx;
+		margin-bottom: 100rpx;
+	   /* background-color: #021442;
+		opacity: 1;*/
+		
+	}

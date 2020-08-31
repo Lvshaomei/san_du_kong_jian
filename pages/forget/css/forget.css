@@ -1,0 +1,150 @@
+
+<style>
+  .content {
+    height: auto;
+    /*color: #021342;*/
+    font-size: 35rpx;
+  }
+  .international{
+    width: 52%;/*下拉宽度*/
+    height: 570rpx;
+    overflow: scroll;
+    font-size: 20rpx;
+    line-height: 40rpx;
+    margin-top: 40rpx;
+    border: 1px solid #55557f;
+    border-radius: 20rpx;
+  }
+  text{/*下拉间距*/
+    padding: 0rpx;
+	color: #00ffff;
+  }
+  image{/*logo*/
+    width: 50rpx;
+    height: 50rpx;
+    padding-left: 6rpx;
+  }
+  .input-phone{/*总宽度*/
+	width: 570rpx;
+    border: 0px solid #5555ff;
+    border-radius: 10rpx;
+    display: flex;
+	padding-top: 0rpx;
+  }
+  .uppush{/*下拉图标*/
+	margin-top: -32px;
+	padding-left:auto;
+  }
+  .codeView {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+  }
+  .codeView1{
+	margin-left: 0rpx;
+  }
+  .canvas-img-code {/*图形验证码*/
+	display: flex;
+	padding-top: -18px;
+  }
+  .uni-input{/*手机输入*/
+	margin-top: -40px;
+  }
+  .wbutton{
+	display:block;
+	margin-bottom:46px auto;
+	padding-bottom: 100rpx;
+  }
+
+  .main{
+	border: none;
+	padding-top: 180rpx;
+	padding-bottom: 300rpx;
+  }
+	/* logo */
+	.header {
+		
+		/*		width:201rpx;
+		height:201rpx;
+		/*box-shadow:0rpx 0rpx 100rpx 0rpx rgba(255, 255, 255, 1.0);
+		border-radius:50%;
+		/*background-color: #1c1c1c; 
+		margin-top: 30rpx;
+		margin-bottom: 20rpx;
+		margin-left: auto;
+		margin-right: auto;*/
+	}
+	.title {
+	    width: 100%;
+	    height: 40px;
+		margin-top:-86rpx;
+		margin-bottom: 100rpx;
+		margin-left: 4rpx;
+	   /* background-color: #021442;
+		opacity: 1;*/
+		
+	}
+	
+	.font {
+	    color: #ffffff;
+	    line-height: 50px;
+	    font-size: 36rpx;
+		font-family:  STXihei;
+	    text-indent: -2em;
+	    text-align: center;
+		margin-top: 20rpx;
+
+	}
+	
+	.nav-left {
+	    float: left;
+	}
+	  
+	.arrow-box{
+	    width: 20px;  
+	    height: 20px;
+	    position: relative;  
+	    border-radius: 10% 10%;  
+	   /* background: #ffffff;  */
+	    text-align: center;
+	    line-height: 26px;
+	    top: 10px;
+	    font-size: 14px;
+	    left: 10px;
+		opacity: 1;
+		color: #ffffff;
+		margin-top: 32rpx;
+	}
+	.wbutton{
+		display:block;
+		margin-top: 60rpx;
+	}
+	.codeView1{
+		width: 422rpx;	
+		 margin-top: -20rpx;
+		}
+	.pass{
+		width: 567rpx;
+		margin-top: 40rpx;
+		margin-left: -74rpx;
+	}	
+	.num{
+		width: 567rpx;
+		margin-top: 10rpx;
+		margin-left: -74rpx;
+	}
+	.conte{
+		width: 570rpx;
+		margin-left: -74rpx;
+	}
+.name1{
+	width: 567rpx;
+}
+.navigator2{
+		font-size: 26rpx;
+		color:#3aca9e;
+		margin-left: 240rpx;
+		margin-top: -140rpx;
+}
