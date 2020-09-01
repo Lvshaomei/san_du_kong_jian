@@ -7,7 +7,7 @@
   }
   .international{
     width: 52%;/*下拉宽度*/
-    height: 570rpx;
+    height: 538rpx;
     overflow: scroll;
     font-size: 20rpx;
     line-height: 40rpx;
@@ -25,7 +25,7 @@
     padding-left: 6rpx;
   }
   .input-phone{/*总宽度*/
-	width: 570rpx;
+	width: 538rpx;
     border: 0px solid #5555ff;
     border-radius: 10rpx;
     display: flex;
@@ -120,31 +120,33 @@
 	.wbutton{
 		display:block;
 		margin-top: 60rpx;
+		margin-left: -20rpx;
 	}
 	.codeView1{
 		width: 422rpx;	
 		 margin-top: -20rpx;
 		}
 	.pass{
-		width: 567rpx;
+		width: 538rpx;
 		margin-top: 40rpx;
 		margin-left: -74rpx;
 	}	
 	.num{
-		width: 567rpx;
+		width: 538rpx;
 		margin-top: 10rpx;
 		margin-left: -74rpx;
 	}
 	.conte{
-		width: 570rpx;
+		width: 542rpx;
 		margin-left: -74rpx;
 	}
 .name1{
-	width: 567rpx;
+	width: 538rpx;
+	margin-left: 0rpx;
 }
 .navigator2{
 		font-size: 26rpx;
 		color:#3aca9e;
-		margin-left: 240rpx;
+		margin-left: 204rpx;
 		margin-top: -140rpx;
 }

@@ -45,6 +45,7 @@
 .wbutton{
 	margin-top: 64rpx;
 	font-family:  STXihei;
+	margin-left: -24rpx;
 }
 
 .login_icon{
@@ -66,6 +67,7 @@
 	height: 40rpx;
 	line-height: 40rpx;
 	font-family:  STXihei;
+	margin-left: -24rpx;
 }
 .footer text{
 	color: #00aaff;
@@ -101,3 +103,9 @@
 		opacity: 1;*/
 		
 	}
+.named{
+	width: 538rpx;
+}
+.passda{
+	width: 538rpx;
+}

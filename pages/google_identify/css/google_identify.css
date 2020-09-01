@@ -27,7 +27,8 @@
   .main{
   	
   	border: none;
-  	padding-top: 180rpx;
+  	padding-top: 100rpx;
+	margin-top: -300rpx;
   	padding-bottom: 300rpx;
   }
   .oldpasswordo{
@@ -43,14 +44,15 @@
 	
   }
   .wbutton{
-  	  margin-top: -310px;
+  	  margin-top: -350px;
 	  font-family: sans-serif;;
+	  margin-left: -24rpx;
   }
   .tips{
 	color: #3aca9e;
 	margin-top: -150rpx;
-	width: 568rpx;
-	margin-left: 90rpx;
+	width: 538rpx;
+	margin-left: 96rpx;
 	font-size: 26rpx;
 	font-family: sans-serif;;
   }
@@ -68,4 +70,10 @@
   	  opacity: 1;
   	  color: #ffffff;
   	  margin-top: 0rpx;
+  }
+  .Gkey{
+	  width: 538rpx;
+  }
+  .Gcode{
+	  width: 538rpx;
   }

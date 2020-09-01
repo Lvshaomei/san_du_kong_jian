@@ -66,6 +66,62 @@
 		{
 			"path" : "pages/notice/notice",
 			"style" : {}
+		}, {
+            "path": "pages/login/login",
+            "style": {
+				"navigationBarTitleText":"登录",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
+        }, {
+            "path": "pages/forget/forget",
+            "style": {
+				"navigationBarTitleText":"忘记密码",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1d35",
+				"backgroundColor":"#007AFF"
+			}
+        }, {
+            "path": "pages/register/register",
+            "style": {
+				"navigationBarTitleText":"注册",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
+        } , {
+            "path": "pages/login_change/login_change",
+            "style": {
+				"navigationBarTitleText":"修改登录密码",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
+        }, {
+            "path": "pages/pay_change/pay_change",
+            "style": {
+				"navigationBarTitleText":"修改支付密码",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
+        } ,{
+		    "path": "pages/google_identify/google_identify",
+		    "style": {
+				"navigationBarTitleText":"谷歌验证",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
+		},{
+		    "path": "pages/activate_user/activate_user",
+		    "style": {
+				"navigationBarTitleText":"激活用户",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0a1f35",
+				"backgroundColor":"#007AFF"
+			}
 		}
     ],
 	"globalStyle": {

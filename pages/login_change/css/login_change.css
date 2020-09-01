@@ -41,6 +41,7 @@
   }
   .wbutton{
   	  margin-top: -230px;
+	  margin-left: -34rpx;
   }
   .arrow-box{
       width: 20px;  
@@ -58,7 +59,7 @@
   	margin-top: 10rpx;
   }
   .conte{
-  	width: 570rpx;
+  	width: 538rpx;
   	margin-left: 0rpx;
   }
   .username{
@@ -70,4 +71,12 @@
   .uname{
   	  color: #00aaff;
   }
-  
+  .meg{
+	  width: 538rpx;
+  }
+  .oldp{
+	  width: 538rpx;
+  }
+  .newp{
+	  width: 538rpx;
+  }

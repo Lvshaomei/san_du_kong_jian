@@ -8,11 +8,11 @@
   }
   .international{
 	margin-top: 0px;
-	width: 570rpx;
+	width: 532rpx;
 	margin-right: 20rpx;
   }
   .input-phone{/*总宽度*/
-	width: 570rpx;
+	width: 536rpx;
     border: 0px solid #5555ff;
     border-radius: 10rpx;
     display: flex;
@@ -42,6 +42,7 @@
 		display:block;
 		margin:46px auto;
 		font-family:  STXihei;
+		margin-left: 0rpx;
 	}
 	.main{
 		margin-top: -20px;
@@ -75,8 +76,8 @@
 		margin-top: 40rpx;
 	}
 	.conte{
-		width: 570rpx;
-		margin-left: 0rpx;
+		width: 538rpx;
+		margin-left: -28rpx;
 	}
 	.left1{
 		display: inline;
@@ -115,4 +116,16 @@
 	/* background-color: #021442;
 			opacity: 1;*/
 			
+}
+.named{
+	width: 538rpx;
+}
+.passd{
+	width: 538rpx;
+}
+.passd1{
+	width: 538rpx;
+}
+.meg1{
+	width: 538rpx;
 }

@@ -1,13 +1,13 @@
 <template>
 	<view class="pay_change">
 		<view class="content">
-			<!-- 主体 -->
+			<!-- 主体 -
 			<div class="title">
 			    <a href="#" onclick="javascript:history.back(-1);">
 			        <image src="../../static/back.png" mode="" @tap="back" class="arrow-box nav-left"></image>
 			    </a>
 			    <p class="font">修改支付密码</p>
-			</div>
+			</div>-->
 			<view class="username">
 				<div>正在为您的账号{{userdata}}修改支付密码</div>
 			</view>
@@ -17,6 +17,7 @@
 					<xl-slider-verify @success="verifySuccess" :reset="false"></xl-slider-verify>
 				</view>
 				<wInput
+					class="meg"
 					v-model="verCode"
 					type="number"
 					maxlength="4"
@@ -29,6 +30,7 @@
 					原支付密码
 				</div>
 				<wInput
+					class="oldp"
 					v-model="passData0"
 					type="password"
 					maxlength="11"
@@ -39,6 +41,7 @@
 					新支付密码
 				</div>
 				<wInput
+					class="newp"
 					v-model="passData"
 					type="password"
 					maxlength="11"

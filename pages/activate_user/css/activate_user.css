@@ -48,14 +48,14 @@
 	  margin-bottom: -10rpx;
   }
   .scanf{
-	  width: 570rpx;
+	  width: 538rpx;
 	  border: 0px solid #5555ff;
 	  border-radius: 10rpx;
 	  display: flex;
   }
   .addgress{
 	  margin-top: 0px;
-	  width: 570rpx;
+	  width: 538rpx;
   }
   .balance{
 	  height: 10rpx;
@@ -66,6 +66,7 @@
 	  padding-top: 0rpx;
   }
   .wbutton{
-  	  margin-top: -300px;
+  	  margin-top: -350px;
+	  margin-left: -24rpx;
   }
   

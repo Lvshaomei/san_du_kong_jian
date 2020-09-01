@@ -8,12 +8,14 @@
 			<!-- 主体表单 -->
 			<view class="main">
 				<wInput
+					class="named"
 					v-model="phoneData"
 					type="text"
 					maxlength="16"
 					placeholder="用户名(3-16位字母+数字)"
 				></wInput>
 				<wInput
+					class="passda"
 					v-model="passData"
 					type="password"
 					maxlength="16"

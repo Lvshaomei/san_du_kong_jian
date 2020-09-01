@@ -1,18 +1,19 @@
 <template>
 	<view class="register">
 		<view class="content">
-			<div class="title">
+		<!--	<div class="title">
 			     <a href="#" onclick="javascript:history.back(-1);">
 			        <image src="../../static/back.png" border="0" mode="" @tap="back" class="arrow-box nav-left"></image>
 			     </a>
-			</div>
+			</div>-->
 			<div class="word">
 				注册
-			</div>
+			</div>-
 			<!-- 主体 -->
 			<view class="main">
 				<view class="content1">
 				<wInput
+					class="named"
 					v-model="nameData"
 					type="text"
 					maxlength="16"
@@ -37,6 +38,7 @@
 						placeholder="请输入国家区号"
 					 />
 					<wInput
+						class="passd"
 						v-model="passData"
 						type="password"
 						maxlength="16"
@@ -44,6 +46,7 @@
 						isShowPass
 					></wInput>
 					<wInput
+						class='passd1'
 						v-model="passData1"
 						type="number"
 						maxlength="6"
@@ -56,6 +59,7 @@
 						</view>
 					</view>
 					<wInput
+						class="meg1"
 						v-model="verCode"
 						type="number"
 						maxlength="4"

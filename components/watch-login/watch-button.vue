@@ -67,7 +67,7 @@
 		white-space:nowrap;
 		online:none;
 		overflow: hidden;
-		width:570rpx;
+		width:538rpx;
 		height:80rpx;
 		justify-content: space-around;
 		/*background-color: #3bca9d;3d*/

@@ -1,13 +1,13 @@
 <template>
 	<view class="activate_user">
 		<view class="content">
-			<!-- 主体 -->
+			<!-- 主体 -
 			<div class="title">
 			     <a href="#" onclick="javascript:history.back(-1);">
 			             <image src="../../static/back.png" mode="" @tap="back" class="arrow-box nav-left"></image>
 			     </a>
 			     <p class="font">激活用户</p>
-			 </div>
+			 </div>-->
 			<view class="main">	
 				<div class="oldpasswordo">
 				对方账户

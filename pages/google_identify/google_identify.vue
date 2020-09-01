@@ -1,13 +1,13 @@
 <template>
 	<view class="google_identify">
 		<view class="content">
-			<!-- 主体 -->
+			<!-- 主体 
 			<div class="title">
 			    <a href="#" onclick="javascript:history.back(-1);">
 			        <image src="../../static/back.png" mode="" @tap="back" class="arrow-box nav-left"></image>
 			    </a>
 			    <p class="font">谷歌验证</p>
-			</div>
+			</div>-->
 			<view class="main">	
 				<div class="oldpasswordo">
 				密钥
@@ -62,6 +62,9 @@
 				verCode:"", //手机验证码
 				inputValue: '',
 				show: false,
+				keyData:"",
+				isRotate:false,
+				
 			}
 		},
 		onLoad() {
@@ -76,7 +79,7 @@
 		onShow() {
 			_this = this;
 			setTimeout(function() {
-			_this.init();
+			//_this.init();
 			}, 1000)
 		},
 		methods: {

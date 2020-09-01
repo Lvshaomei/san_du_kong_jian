@@ -1,13 +1,13 @@
 <template>
 	<view class="forget">
 		<view class="content">
-			<!-- 主体 -->
+			<!-- 主体 
 			<div class="title">
 			     <a href="#" onclick="javascript:history.back(-1);">
 			        <image src="../../static/back.png" mode="" @tap="back" class="arrow-box nav-left"></image>
 			     </a>
 			     <p class="font">忘记密码</p>
-			</div>
+			</div>-->
 			<view class="main">		
 				<view class="content1">
 					<wInput
