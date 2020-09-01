@@ -1,23 +1,9 @@
-<<<<<<< HEAD
-<script>
 
-	export default {
-		components:{
-			
-		},
-		onLaunch: function() {
-			console.log('App Launch')
-		},
-		onShow: function() {
-			console.log('App Show')
-		},
-		onHide: function() {
-			console.log('App Hide')
-=======
+
 <script>
 	import Vue from 'vue'
 	export default {
-created() {
+		created() {
 			// #ifdef APP-PLUS
 			plus.navigator.closeSplashscreen(); 
 			// #endif 
@@ -55,19 +41,15 @@ created() {
 		},
 		onHide: function() {
 			console.log('App 关闭')
->>>>>>> c199433a8ee2aaa987e89e947398061bfd8ed279
 		}
 	}
 </script>
 
 <style>
-<<<<<<< HEAD
-	/*每个页面公共css */
-=======
+
 	/*每个页面公共css */
 	body{
 		background: #FFFFFF !important;
 	}
 	
->>>>>>> c199433a8ee2aaa987e89e947398061bfd8ed279
 </style>
