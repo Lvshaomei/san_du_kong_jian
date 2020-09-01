@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name" : "san_du_notice",
+=======
+    "name" : "san_du_room",
+>>>>>>> c199433a8ee2aaa987e89e947398061bfd8ed279
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
